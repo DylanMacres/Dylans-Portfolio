@@ -1,0 +1,1 @@
+This week we started the initial commit on our very own websites! This will serve as a continuous updated piece of our portfolio. On my website as of now I added a bio, fun facts, previous work, and contact info. I look forward to updating the layout and design while adding other elements to make it work smoother. 

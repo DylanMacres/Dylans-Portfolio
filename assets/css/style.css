@@ -1,0 +1,179 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+    background-color: bisque;
+}
+.header{
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: navy;
+    color: white;
+    padding-top: 5%;
+    
+}
+
+
+#biography-dylan img{
+    width: 140px;
+    height: 200px;
+    max-height: 150px;
+    float: inline-start;
+    margin-left: 32rem;
+    
+}
+
+.header h1{
+    text-align: left;
+    font-size: 48px;
+    display: inline-block;
+    color: black;
+}
+
+
+.header nav
+{
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family : 'Times New Roman', Times, serif;
+    font-size: 28px;
+    background-color: bisque;
+    color: black;
+
+}
+
+.header nav ul {
+    list-style-type: none;
+    color: white;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+    color: white;
+}
+
+#biography-dylan {
+    padding-top: 200px;
+}
+
+#biography-dylan h1
+{
+    text-align: left;
+    font-size: 72px;
+    display: inline-block;
+    color:black;
+    padding-left: 2%;
+   
+
+}
+
+#biography-dylan p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+    color: brown;
+   text-align: center;
+    border-style: solid;
+    border-color: black;
+   border-width: 3px;
+   padding: 50px;
+   
+}
+
+.projects{
+    padding: 150px;
+    border: solid;
+    border-width: 100%;
+    border-color: black;
+}
+
+.projects li {
+    margin-left: 200px;
+    list-style-type: square;
+    font-size:x-large;
+}
+.projects p
+{
+    margin-left: 200px;
+    padding-bottom: 50px;
+    font-size: 32px
+
+}
+.projects h1{
+    font-size: 72px;
+    text-align: center;
+}
+
+
+#cover{
+    height: 400px;
+    resize: both;
+    margin: 25px 0 25px 0;
+    width: 100%;
+    background-image:url("/Users/dmacr/code/dylans-hw-part2/assets/images/coverpicmain.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.facts li {
+    font-size: 32px;
+    flex-direction: column;
+    display: inline-block;
+    padding: 25px;
+    margin-left: 25px;
+    border: solid;
+    margin: 3px;
+    
+
+}
+.facts h1{
+    text-align: left;
+    font-size: 72px;
+ 
+}
+.facts{
+    margin-bottom: 200px;
+    margin-inline-start: 25%;
+}
+
+.contact{
+    text-align: center;
+    font-size: 36px;
+    border: solid;
+    border-width: 100%;
+    border-color: black;
+    margin-bottom: 15%;
+    list-style: none;
+}
+
+.footer{
+    text-align: center;
+    color: powderblue;
+    margin-bottom: 24px;
+    background-color: navy;
+}
+
+ @media screen and (max-width: 992px) {
+    .biography,
+    .header,
+    .facts,
+    .projects,
+    .footer,
+    .contact
+    {width: 50%;}
+ }
+
+ @media screen and (max-width: 768px) {
+    .biography,
+    .header,
+    .facts,
+    .projects,
+    .footer,
+    .contact
+    {width: 100%;}
+ }
